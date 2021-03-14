@@ -23,6 +23,7 @@ print(y.shape)
 def myClick():
     message=myTextBox.get(1.0,END)
     messagebox.showinfo("Result","")
+    myTextBox.delete(1.0,END)
  
         
 root=Tk()
